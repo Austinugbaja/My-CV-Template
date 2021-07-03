@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 198, 198);
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+u {
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.general-section {
+    font-size: 1.09rem;
+    width: 75%;
+    height: 100%;
+    border: 1px solid rgb(117, 117, 117);
+    box-shadow: 10px 5px 5px rgb(95, 93, 93);
+    margin: 10em;
+    padding: 0;
+    display: flex;
+    background-color: #fff;
+}
+
+.zero-section {
+    padding: 25px;
+    background-color: rgb(90, 88, 88);
+}
+
+.profile-pic img {
+    width: 12.2em;
+    height: 12.2em;
+    border-radius: 100%;
+}
+
+.first-section {
+    font-weight: 700;
+    padding: 25px;
+    background-color: rgb(170, 169, 169);
+}
+
+.profile-desc {
+    margin: 20px;
+}
+
+.profile-desc h3 {
+    margin: 20px;
+    margin-left: 0;
+}
+
+.interest h3 {
+    margin-bottom: 20px;
+}
+
+.reference h3 {
+    margin-bottom: 20px;
+}
+
+.interest {
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 1.50rem;
+}
+
+.interest ul {
+    font-size: smaller;
+}
+
+.reference {
+    margin: 20px;
+}
+
+.reference p {
+    font-size: smaller;
+}
+
+.add,
+.phone,
+.mail,
+.fb,
+.tw {
+    margin-bottom: 20px;
+}
+
+.add p {
+    font-style: italic;
+    font-size: smaller;
+    line-height: 1.5rem;
+}
+
+.phone p {
+    font-style: italic;
+    font-size: smaller;
+    line-height: 1.5rem;
+}
+
+.mail p {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.fb p {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.tw p {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.git p {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.add h4 {
+    margin-bottom: 8px;
+}
+
+.phone h4 {
+    margin-bottom: 8px;
+}
+
+.mail h4 {
+    margin-bottom: 8px;
+}
+
+.fb h4 {
+    margin-bottom: 8px;
+}
+
+.tw h4 {
+    margin-bottom: 8px;
+}
+
+.git h4 {
+    margin-bottom: 8px;
+}
+
+.second-section {
+    padding: 1.56em;
+    padding-top: 2.5em;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-name,
+.profile-bg,
+.profile-career,
+.profile-skills,
+.profile-academic {
+    margin-bottom: 1.88em;
+}
+
+.profile-name h2 {
+    margin-bottom: 12px;
+}
+
+.profile-bg h3 {
+    margin-bottom: 15px;
+}
+
+.profile-bg p {
+    font-size: smaller;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.88rem;
+}
+
+.profile-career h3 {
+    margin-bottom: 15px;
+}
+
+.company-desc {
+    margin-bottom: 15px;
+}
+
+.company-desc-time {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.company-desc-time :not(:first-child) {
+    padding-left: 3.12rem;
+}
+
+.company-resp-one,
+.company-resp-two,
+.company-resp-three {
+    margin-left: 7.9rem;
+    margin-bottom: 18px;
+}
+
+.company-resp-one p {
+    font-size: smaller;
+    font-weight: bold;
+    line-height: 1.50rem;
+}
+
+.company-resp-two p {
+    font-size: smaller;
+    font-weight: bold;
+    line-height: 1.50rem;
+}
+
+.company-resp-three p {
+    font-size: smaller;
+    font-weight: bold;
+    line-height: 1.50rem;
+}
+
+.profile-skills h3 {
+    margin-bottom: 15px;
+}
+
+.skill-list {
+    font-size: smaller;
+    font-weight: bold;
+    margin-left: 7.5rem;
+    line-height: 1.50rem;
+}
+
+.profile-academic h3 {
+    margin-bottom: 15px;
+}
+
+.academic-desc {
+    font-size: smaller;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.profile-cert h3 {
+    margin-bottom: 15px;
+}
+
+.cert-item {
+    font-size: smaller;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    line-height: 1.88rem;
+}
